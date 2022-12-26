@@ -73,3 +73,10 @@
   font-weight: bold;
 
 }
+
+.avatar {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+}
