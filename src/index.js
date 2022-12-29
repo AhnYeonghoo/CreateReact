@@ -9,11 +9,14 @@ import AppXY from "./AppXY";
 import AppMentor from "./AppMentor";
 import AppMentors from "./AppMentors";
 import AppMentorsImmer from "./AppMentorsImmer";
+import AppForm from "./AppForm";
+import AppWrap from "./AppWrap";
+import AppCard from "./AppCard";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
 	<React.StrictMode>
-		<AppMentorsImmer />
+		<AppCard />
 	</React.StrictMode>
 );
 
